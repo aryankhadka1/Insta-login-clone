@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "lato", sans-serif;
+}
+section{
+    /*background-color: antiquewhite;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+h1{
+    font-family: "cookie", cursive;
+    font-size: 60px;
+    text-align: center;
+}
+.form-box{
+    /*background-color: antiquewhite;*/
+    position: relative;
+    display: flex;
+    border: 1px solid aliceblue;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    height: 400px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.input-box{
+    position: relative;
+    margin: 3px 0;
+    width: 250px;
+}
+.sign-up{
+    background: transparent;
+    border: 2px solid rgba(128, 128, 128, 0.764);
+    border-radius: 4px;
+    height: 50px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.sign-up a{
+    text-decoration: none;
+    color: #0039aa;
+}
+.input-box input{
+    width: 267px;
+    height: 30px;
+    margin-top: 2%;
+}
+.login button{
+    width: 100%;
+    margin-top: 6%;
+    background-color: #009fff;
+    border: none;
+    border-radius: 4px;
+    height: 25px;
+    color: #fff;
+}
+.login button:hover{
+    transition: .5s;
+    background-color: #0039aa;
+}
+.or-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    padding: 5px 0;
+}
+.log-fb{
+    text-align: center;
+    margin-right: 98px;
+}
+.log-fb button{
+    position: absolute;
+    z-index: -1;
+    background: transparent;
+    border: none;
+    padding-right: 0;
+    width: 110px;
+    height: 25px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #0039aa;
+}
+.log-fb img{
+    height: 25px;
+}
+.forgot{
+    font-size: 11px;
+    margin-left: 90px;
+    padding-top: 10px;
+}
+.forgot a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+form{
+    border: 2px solid rgba(128, 128, 128, 0.764);
+    border-radius: 5px;
+    height: 300px;
+}
+.info{
+    padding: 10px;
+}
